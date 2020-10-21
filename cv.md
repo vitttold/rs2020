@@ -39,4 +39,4 @@
 
 ## _**English**_
 
-> A1-A2. Now I pass an online course
+> A1—A2. Now I pass an online course
