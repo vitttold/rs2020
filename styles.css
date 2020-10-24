@@ -4,7 +4,7 @@ body {
 main {
   max-width: 540px;
   margin: auto;
-  background: linear-gradient(rgb(241, 241, 241), #b7c3b9);
+  background: linear-gradient(rgb(255, 255, 255), #b7c3b9);
   padding: 10px;
 }
 
@@ -53,4 +53,19 @@ main {
   margin-left: 10px;
   border-left: 3px solid rgb(0, 126, 119);
   padding-left: 25px;
+}
+
+@media (max-width: 472px) {
+.container2 {
+  flex-direction:column;
+}
+.flex {
+  flex-direction:column;
+}
+.flexPhoto{
+  justify-content: center; 
+  width: auto;
+}
+.flexCont {
+  text-align: center;
 }
