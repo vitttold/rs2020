@@ -1,0 +1,64 @@
+body {
+  max-width: 1024px;
+}
+main {
+  max-width: 540px;
+  margin: 0px auto;
+  background: linear-gradient(rgb(255, 255, 255), #b7c3b9);
+  padding: 10px;
+}
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex {
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  margin: 5px;
+  padding: 10px;
+}
+.flexPhoto {
+  display: flex;
+  width: 150px;
+  background-color: rgb(230, 230, 230);
+  margin: 5px;
+  padding: 10px;
+}
+
+.flexCont {
+  flex-direction: column;
+  text-align: right;
+  margin-right: 30px;
+}
+.goal {
+  font-family: Arial, Verdana, sans-serif;
+}
+.font {
+  font-family: Arial, Verdana, sans-serif;
+  color: rgb(79, 79, 83);
+}
+.border {
+  margin-left: 10px;
+  border-left: 3px solid rgb(0, 126, 119);
+  padding-left: 25px;
+}
+
+@media (max-width: 472px) {
+.container2 {
+  flex-direction:column;
+}
+.flex {
+  flex-direction:column;
+}
+.flexPhoto{
+  justify-content: center; 
+  width: auto;
+}
+.flexCont {
+  text-align: center;
+}
